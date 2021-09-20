@@ -37,7 +37,7 @@ function validateCashGiven()
     }
     else if(Number(billAmount.value)<0 )
     {
-        showMessage("Invalid Bill Amount");
+        showMessage("**Invalid Bill Amount**");
         nextButton.style.display="block";
         secondContainer.style.display="none";
 
